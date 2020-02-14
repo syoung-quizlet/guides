@@ -25,3 +25,9 @@ If you are on Ubuntu 14.04-15.10, use `docker.io` instead:
 ```console
 $ sudo service docker.io restart
 ```
+
+If Docker was installed via snap (Ubuntu server 14.x):
+
+```console
+$ sudo snap restart docker
+```
